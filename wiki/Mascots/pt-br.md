@@ -1,5 +1,6 @@
 ---
 no_native_review: true
+outdated_translation: true
 ---
 
 # Mascotes
@@ -10,11 +11,11 @@ Um vídeo do YouTube mostrando as mascotes do osu! pode ser visto em [Mascot Sho
 
 ## Oficial
 
-### ![osu!standard icon](/wiki/shared/mode/osu.png) pippi
+### ![osu! icon](/wiki/shared/mode/osu.png) pippi
 
 ![pippi](img/pippi.png "pippi")
 
-pippi, estilizado em letra minúscula "p", é a mascote do osu!standard que se juntou em 2008-07. Ela também é conhecida como pippidon no osu!taiko e apareceu em [Yandere Simulator](https://yanderesimulator.com) como uma NPC. A arte conceitual inicial foi criada por [Sarumaru](https://osu.ppy.sh/users/9427), a sprite da pippidon for criada por [crystalsuicune](https://osu.ppy.sh/users/9974), e a arte atual foi projetada por [Daru](https://osu.ppy.sh/users/32480).
+pippi, estilizado em letra minúscula "p", é a mascote do osu! que se juntou em 2008-07. Ela também é conhecida como pippidon no osu!taiko e apareceu em [Yandere Simulator](https://yanderesimulator.com) como uma NPC. A arte conceitual inicial foi criada por [Sarumaru](https://osu.ppy.sh/users/9427), a sprite da pippidon for criada por [crystalsuicune](https://osu.ppy.sh/users/9974), e a arte atual foi projetada por [Daru](https://osu.ppy.sh/users/32480).
 
 ### ![osu!catch icon](/wiki/shared/mode/catch.png) Yuzu
 
@@ -48,7 +49,7 @@ Mocha é a mascote de osu!taiko. Ela foi inicialmente projetada durante a [sexta
 
 > Ele é o líder sangue quente da torcida. Ele tem um bom coração e ajuda os outros ao seu redor que estão em apuros através de se levantar e lutar por eles!
 
-一本木龍太 (Ryūta Ippongi) era o fruta-chibi catcher do osu!catch que se juntou em 2008, mas foi substituído por [Yuzu](#-yuzu) em 2014. Ele foi criado pela [iNiS Corporation](https://en.wikipedia.org/wiki/INiS) e já fez parte do antigo website. Ryuuta também apareceu em [Yandere Simulator](https://yanderesimulator.com) como um NPC.
+一本木龍太 (Ryūta Ippongi) era o fruta-chibi catcher do osu!catch que se juntou em 2008, mas foi substituído por [Yuzu](#yuzu) em 2014. Ele foi criado pela [iNiS Corporation](https://en.wikipedia.org/wiki/INiS) e já fez parte do antigo website. Ryuuta também apareceu em [Yandere Simulator](https://yanderesimulator.com) como um NPC.
 
 Ryuuta também foi um destaque na skin de [LuigiHann](https://osu.ppy.sh/users/1079), [Elite Beat osu! HD (1.0 Complete!)](https://osu.ppy.sh/community/forums/topics/190357/).
 

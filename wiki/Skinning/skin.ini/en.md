@@ -1,6 +1,8 @@
 # skin.ini
 
-*See also: [skin.ini/Blank](/wiki/Skinning/skin.ini/Blank)*
+::: alert-note
+**See also:** [skin.ini/Blank](/wiki/Skinning/skin.ini/Blank)
+:::
 
 The `skin.ini` is an initialization file that is found in almost every skin folder.
 This file will define how osu! will display certain skin elements.
@@ -18,7 +20,7 @@ The version number, seen in the headings, is what will be used in the `Version` 
 
 If your `skin.ini` does not specify a `Version`, it will default to this version.
 
-- Hitcircle numbers are part of hitburst explosions.
+- Hit circle numbers are part of hitburst explosions.
 - Large expansion of hitlighting (`lighting.png`).
 - Old styled spinner (`spinner-circle.png`, `spinner-background.png`, and `spinner-metre.png`).
 - Segmented countdown image build-up.
@@ -35,7 +37,7 @@ If your `skin.ini` does not specify a `Version`, it will default to this version
   - Use the suffix `@2x.png` in the skinning element to let osu! know that the skinning element is higher in quality.
 - New style spinner (`spinner-middle.png`, `spinner-middle2.png`, `spinner-top.png`, `spinner-bottom.png`, and `spinner-glow.png`).
 - Countdown sequence instead of segmented image.
-  - Countdowns are now centered.
+  - Countdowns are now centred.
 - Hitcircle numbers are no longer part of hitburst explosions.
 - Red coloured play-warningarrow during end of breaks.
 - Smaller expansion of `lighting.png`.
@@ -54,7 +56,7 @@ If your `skin.ini` does not specify a `Version`, it will default to this version
 **interface/UI changes**
 
 - Thumbnail support.
-  - Must be enabled by the user in the [Options](/wiki/Options) and be supported by the skin in the [skin.ini](/wiki/skin.ini) file.
+  - Must be enabled by the user in the [Options](/wiki/Client/Options) and be supported by the skin in the [skin.ini](/wiki/Skinning/skin.ini) file.
 - Changes star rating display to scaling `star.png` instead of partially widthed `star.png`.
 - Panel text alignment optimisations.
 
@@ -65,7 +67,7 @@ If your `skin.ini` does not specify a `Version`, it will default to this version
 - `fruit-ryuuta.png` will no longer work from this point forward.
 - New catcher states (and images).
 - New osu!catch specific combobursts (`comboburst-fruits.png`).
-  - osu!standard combobursts will no longer be used for osu!catch.
+  - osu! combobursts will no longer be used for osu!catch.
 
 ### 2.4
 
@@ -89,7 +91,7 @@ If your `skin.ini` does not specify a `Version`, it will default to this version
 **Allow per-type skinning of arrows**
 
 - Adds `arrow-generic.png`, `arrow-warning.png` and `arrow-pause.png`.
-- Removes `play-warningarrow.png`.
+- Deprecates `play-warningarrow.png` in favor of the above.
 
 ### 2.7
 
@@ -104,18 +106,14 @@ If your `skin.ini` does not specify a `Version`, it will default to this version
 
 If your skin folder does not contain a `skin.ini` file, it will default to this version.
 
-- **Never** use this when trying to distribute skins! (a new skin version could break the skin for what version it was entended for).
+- **Never** use this when distributing skins! (if a new skin version releases, a skin with its version set to `latest` might break).
 - Always uses the latest version the game supports.
 
 ### User
 
-**Not a version, but always force [latest](#latest)**
+This is not a version, but a special skin folder that is created when the default skin is modified, e.g. by dragging in a custom menu background into the game window (with [osu!supporter](/wiki/osu!supporter#extra-skinnable-elements)) or when attempting to modify osu!mania keybinds for the default skin from the options.
 
-- **Never** use this method when distribute skins!
-- The skin folder **must** be named `User`.
-- Use this method if you only want to change a few things (e.g. cursor or numbers, etc).
-- Does not require the `skin.ini` file.
-- This folder will always force `Version: latest`
+A skin in a folder named `User` will always use the latest skin version, regardless of any speification in `skin.ini` or otherwise.
 
 ## Notes
 
@@ -125,7 +123,7 @@ Before viewing the `skin.ini` commands below, here are some notes.
 
 *tl;dr `0 = no` and `1 = yes`*
 
-Some commands only accept a boolean value (a `true` or a `false` value). When skinning, osu! is setup to only recognize a `1` (one) as `true` while a `0` (zero) as `false`.
+Some commands only accept a boolean value (a `true` or a `false` value). When skinning, osu! is setup to only recognise a `1` (one) as `true` while a `0` (zero) as `false`.
 
 Here is a classic example:
 
@@ -133,7 +131,7 @@ Here is a classic example:
 | :-: | :-: |
 | ![](img/Sliderball_flip-0.gif) | ![](img/Sliderball_flip-1.gif) |
 
-Note that Reisen, the sliderball, does **not** flip when `0` is used. However, Reisen does flip when a `1` is used. Depending on what spite is used, you will either get a moonwalking sliderball, or one that turns around.
+Note that Reisen, the sliderball, does **not** flip when `0` is used. However, Reisen does flip when a `1` is used. Depending on what sprite is used, you will either get a moonwalking sliderball, or one that turns around.
 
 ### Numbers and Integers
 
@@ -144,7 +142,7 @@ When viewing these tables:
 - *number* means a **whole** or **decimal** number (e.g. `1.5`, `4.295`, `2`, `3.0`).
 - *integer* means **whole** numbers only (e.g. `-13`, `-632`, `135` , `9`).
   - *positive integer* means **positive whole** numbers only (e.g. `376`, `22`, or `5`).
-- *comma-split list with positive integers* is-- literally-- a list of positive integers splited with commas (e.g. `1, 2, 3, 55`).
+- *comma-split list with positive integers* is-- literally-- a list of positive integers split with commas (e.g. `1, 2, 3, 55`).
 
 ### RGB and RGB(a)
 
@@ -157,42 +155,36 @@ A few commands may ask for a colour in the *RGB* or *RGB(a)* format.
 
 ### Sections
 
-osu! organizes the commands with a heading command. Which may look like this `[General]`. osu! only uses five sections throughout the skin.ini file, which are indicated with the section headers below.
+osu! organises the commands with a heading command. Which may look like this `[General]`. osu! only uses five sections throughout the skin.ini file, which are indicated with the section headers below.
 
 ## \[General\]
 
 - `Name:`
   - Question: What is the name of this skin?
   - Value: text *(skin name)*
-  - Default: *(empty)*
+  - Default: `Unknown`
   - Notes:
-    - At this time, this command is not used.
-    - The osu!client will refer to the folder's name instead when listing.
+    - After exporting the skin, the filename is `<Name>.osk`.
+      - In [osu!(lazer)](/wiki/Client/Release_stream/Lazer), the filename is `<Name> (<Author>).osk`.
+    - The skin selector uses folder names, not the names given by this option.
+      - In [osu!(lazer)](/wiki/Client/Release_stream/Lazer), the skin selector options are in the format `<Name> (<Author>)`, or `<Name> [<.osk filename>] (<Author>)` if the name in `skin.ini` differs from the name of the `.osk` file.
 - `Author:`
   - Question: Who is the author of this skin?
   - Value: text *(skin creator)*
   - Default: *(empty)*
   - Notes:
-    - At this time, this command is not used.
-    - Use your username.
-      - Using your forum username is preferred.
+    - In [osu!(lazer)](/wiki/Client/Release_stream/Lazer), after exporting the skin, the filename is `<Name> (<Author>).osk`.
+    - In [osu!(lazer)](/wiki/Client/Release_stream/Lazer), the skin selector options are in the format `<Name> (<Author>)`, or `<Name> [<.osk filename>] (<Author>)` if the name in `skin.ini` differs from the name of the `.osk` file.
 - `Version:`
   - Question: How should the skin behave?
-  - Values:
-    - `1.0`
-    - `2.0`
-    - `2.1`
-    - `2.2`
-    - `2.3`
-    - `2.4`
-    - `2.5`
-    - `latest`
+  - Value: A [version number](/wiki/Skinning/skin.ini#versions) or `latest`
   - Notes:
-    - If the `skin.ini` file is not present, `latest` will be used instead.
-    - If the `skin.ini` file is present, but does not use the `Version` command, `1.0` will be assumed (legacy support).
+    - If the `skin.ini` file is not present, `latest` will be used.
+    - If the `skin.ini` file is present, but does not use the `Version` command, `1.0` will be used (legacy support).
 - `AnimationFramerate:`
   - Question: How many frames should be displayed by the animations that depend on this value in one second?
-  - Value: *positive integer*
+  - Value: *positive integer* or `-1` to to make osu! play all frames of the animation in one second
+  - Default: `-1`
   - Notes:
     - This will set the framerate of most animations.
     - Exceptions: circleoverlays, sliderball, pippidon, osu!mania notes and lighting
@@ -201,20 +193,20 @@ osu! organizes the commands with a heading command. Which may look like this `[G
   - Values: `0` or `1`
   - Default: `0`
   - Notes:
-    - The default sliderball will always get tinted, if enabled in [options](/wiki/options).
+    - The default sliderball will always get tinted, if enabled in [options](/wiki/Client/Options).
 - `ComboBurstRandom`
   - Question: Should combobursts be shown in a random order?
   - Values: `0` or `1`
   - Default: `0`
   - Notes:
-    - This is not for [osu!taiko](/wiki/osu!taiko).
+    - This is not for [osu!taiko](/wiki/Game_mode/osu!taiko).
 - `CursorCentre:`
   - Question: Should the cursor have an origin at the centre of the image?
   - Values: `0` or `1`
   - Default: `1`
   - Notes:
     - `0` = top-left corner
-    - `1` = centered
+    - `1` = centred
 - `CursorExpand:`
   - Question: Should the cursor expand when clicked?
   - Values: `0` or `1`
@@ -232,27 +224,27 @@ osu! organizes the commands with a heading command. Which may look like this `[G
   - Value: *comma-split list with positive integers*
   - Default: *(empty)*
   - Notes:
-    - This is not for [osu!taiko](/wiki/osu!taiko).
+    - This is not for [osu!taiko](/wiki/Game_mode/osu!taiko).
     - This only affects the combo burst sounds, not the milestones.
 - `HitCircleOverlayAboveNumber:`
   - Question: Should the hitcircleoverlay be drawn above the numbers?
   - Values: `0` or `1`
   - Default: `1`
   - Notes:
-    - This is for [osu!standard](/wiki/osu!standard) only.
+    - This is for [osu!](/wiki/Game_mode/osu!) only.
     - Old command: `HitCircleOverlayAboveNumer` (with typo) still works for legacy support
 - `LayeredHitSounds:`
   - Question: Should the hitnormal sounds always be played?
   - Values: `0` or `1`
   - Default: `1`
   - Notes:
-    - This is not for [osu!taiko](/wiki/osu!taiko).
+    - This is not for [osu!taiko](/wiki/Game_mode/osu!taiko).
 - `SliderBallFlip:`
   - Question: If the sliderball is reversed, should the sliderball sprite flip horizontally?
   - Values: `0` or `1`
   - Default: `1`
   - Notes:
-    - This is for [osu!standard](/wiki/osu!standard) only.
+    - This is for [osu!](/wiki/Game_mode/osu!) only.
 - `SpinnerFadePlayfield:`
   - Question: Should the spinner add black bars during spins?
   - Values: `0` or `1`
@@ -268,7 +260,10 @@ osu! organizes the commands with a heading command. Which may look like this `[G
 
 ## \[Colours\]
 
-*Note: this header **must** be spelled as **`[Colours]`**, not `[Colors]`!*
+::: alert-notice
+**Notice**
+this header **must** be spelled as **`[Colours]`**, not `[Colors]`!
+:::
 
 - `Combo1:`
   - Question: What colour is used for the last combo?
@@ -331,7 +326,7 @@ osu! organizes the commands with a heading command. Which may look like this `[G
   - Value: *RGB*
   - Default: `0,0,0`
   - Notes:
-    - This is for [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch) only..
+    - This is for [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch) only..
     - This tints the numbers shown on the input overlay.
 - `MenuGlow:`
   - Question: What colour should the spectrum bars in the main menu be coloured in?
@@ -344,20 +339,20 @@ osu! organizes the commands with a heading command. Which may look like this `[G
   - Value: *RGB*
   - Default: `2,170,255`
   - Notes:
-    - This is for [osu!standard](/wiki/osu!standard).
-    - Default sliderball's colour if tinting is disabled in [options](/wiki/options).
+    - This is for [osu!](/wiki/Game_mode/osu!).
+    - Default sliderball's colour if tinting is disabled in [options](/wiki/Client/Options).
 - `SliderBorder:`
   - Question: What colour should be used for the sliderborders?
   - Value: *RGB*
   - Default: `255,255,255`
   - Notes:
-    - This is for [osu!standard](/wiki/osu!standard) only.
+    - This is for [osu!](/wiki/Game_mode/osu!) only.
 - `SliderTrackOverride:`
   - Question: What colour should all sliderbodies be coloured in?
   - Value: *RGB*
   - Default: *use current combo colour*
   - Notes:
-    - This is for [osu!standard](/wiki/osu!standard) only.
+    - This is for [osu!](/wiki/Game_mode/osu!) only.
     - Using this will make all slider track colours the same.
 - `SongSelectActiveText:`
   - Question: What colour should the text of the active panel be tinted in?
@@ -381,13 +376,13 @@ osu! organizes the commands with a heading command. Which may look like this `[G
 ## \[Fonts\]
 
 - `HitCirclePrefix:`
-  - Question: What prefix is used for the hitcircle numbers?
+  - Question: What prefix is used for the hit circle numbers?
   - Value: text *(path/filename prefix)*
   - Default: `default`
   - Notes:
     - You can use a custom path
 - `HitCircleOverlap:`
-  - Question: By how many pixels should the hitcircle numbers overlap?
+  - Question: By how many pixels should the hit circle numbers overlap?
   - Value: *integer*
   - Default: `-2`
   - Notes:
@@ -399,7 +394,7 @@ osu! organizes the commands with a heading command. Which may look like this `[G
 - `ScoreOverlap:`
   - Question: By how many pixels should the score numbers overlap?
   - Value: *integer*
-  - Default: `-2`
+  - Default: `0`
   - Notes:
     - Negative integers will add a gap.
 - `ComboPrefix:`
@@ -409,7 +404,7 @@ osu! organizes the commands with a heading command. Which may look like this `[G
 - `ComboOverlap:`
   - Question: By how many pixels should the combo numbers overlap?
   - Value: *integer*
-  - Default: `-2`
+  - Default: `0`
   - Notes:
     - Negative integers will add a gap.
 
@@ -441,7 +436,7 @@ osu! organizes the commands with a heading command. Which may look like this `[G
 
 **Notes:**
 
-- If you want to fully customize the osu!mania stage, use skin version `2.5` or higher.
+- If you want to fully customise the osu!mania stage, use skin version `2.5` or higher.
 - Commands that are asking where to position something horizontally are based on a height of 480 pixels.
 - When a command is depend on the total number of keys:
   - using too many and the extras are ignored.
@@ -505,7 +500,7 @@ Keys: 5
   - Notes:
     - It is suggested to keep this thin if high keycounts or wide keys are used.
 - `ColumnLineWidth:`
-  - Question: How thick are the column seperators individually?
+  - Question: How thick are the column separators individually?
   - Value: comma-split list with numbers
   - Default: `2`
 - `BarlineHeight:`
@@ -526,7 +521,7 @@ Keys: 5
   - Notes:
     - If not defined, the height scale of the smallest column width is used
 - `HitPosition:`
-  - Question: On which height should the judgement line be drawn at?
+  - Question: On which height should the [judgement](/wiki/Gameplay/Judgement) line be drawn at?
   - Value: integer
   - Default: `402`
   - Notes:
@@ -541,22 +536,21 @@ Keys: 5
   - Question: On which height should the hitbursts appear at?
   - Value: *integer*
   - Notes:
-    - The hitbursts will be vertically centered on the stage.
+    - The hitbursts will be vertically centred on the stage.
 - `ComboPosition:`
   - Question: On which height should the combo counter appear at?
   - Value: *integer*
   - Notes:
-    - The combo counter will be vertically centered on the stage.
+    - The combo counter will be vertically centred on the stage.
 - `JudgementLine:`
   - Question: Should an additional line be drawn above the StageHint?
   - Value: `0` or `1`
   - Notes:
     - This is the hint for when the keys should be pressed.
 - `LightFramePerSecond:`
-  - Question: *unknown*
-  - Value: *unknown*
-  - Notes:
-    - May be obsolete.
+  - Question: How many frames should be displayed by the `StageLight` animation in one second?
+  - Value: *integer*
+  - Default: *unknown*
 - `SpecialStyle:`
   - Question: What SpecialStyle is used for this keycount if available?
   - Value: `0`, `1`, or `2`
@@ -566,7 +560,7 @@ Keys: 5
     - `1` = (left (SP) or outer (DP) lane)
     - `2` = (right (SP) or inner (DP) lane)
     - For even keycounts, more than 4.
-    - For DP, the center between the stages is used for determining positions.
+    - For DP, the centre between the stages is used for determining positions.
 - `ComboBurstStyle:`
   - Question: On what side should the comboburst appear?
   - Value: `0`, `1`, or `2`
@@ -583,12 +577,12 @@ Keys: 5
   - Notes:
     - This value is forced, if defined.
     - `0` = no splitting / forced SP
-    - Each keycount higher than 1 can be splitted (or merged, if count is higher than 9).
+    - Each keycount higher than 1 can be split (or merged, if count is higher than 9).
 - `StageSeparation:`
-  - Question: What distance should the 2 stages have when splitted?
+  - Question: What distance apart should the 2 stages be when split?
   - Value: *number*
   - Default: `40`
-  - Notes: The distance of the two stages, if split.
+  - Notes: The distance between the two stages, if split.
 - `SeparateScore:`
   - Question: Should the hitburst only be shown on the stage it was scored on?
   - Value: `0` or `1`
@@ -694,7 +688,7 @@ Keys: 5
   - Notes:
     - These are the lines that separate the columns.
 - `ColourBarline:`
-  - Question: What colour should be used for the bar seperator?
+  - Question: What colour should be used for the bar separator?
   - Value: *RGB(a)*
   - Default: `255,255,255,255`
   - Notes:
@@ -763,7 +757,7 @@ Keys: 5
   - Question: What is the name of the bottom stage image?
   - Value: text *(path to image)*
   - Notes:
-    - This will **not** be streched to fit
+    - This will **not** be stretched to fit
 - `StageHint:`
   - Question: What is the name of the stage hint image?
   - Value: text *(path to image)*

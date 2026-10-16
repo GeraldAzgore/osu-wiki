@@ -11,22 +11,22 @@ tags:
 
 | Event | Time |
 | :-- | :-- |
-| Season start | 2020-07-06 |
-| Timeshift lobby: Playlist A | 2020-07-10/2020-07-12 |
-| Timeshift lobby: Playlist B | 2020-07-17/2020-07-19 |
-| Timeshift lobby: Playlist C | 2020-07-24/2020-07-26 |
-| Timeshift lobby: Playlist D | 2020-07-31/2020-08-02 |
-| Timeshift lobby: Playlist A | 2020-08-07/2020-08-09 |
-| Timeshift lobby: Playlist B | 2020-08-14/2020-08-16 |
-| Timeshift lobby: Playlist C | 2020-08-21/2020-08-23 |
-| Timeshift lobby: Playlist D | 2020-08-28/2020-08-30 |
-| Timeshift lobby: Playlist A and B | 2020-09-04/2020-09-06 |
-| Timeshift lobby: Playlist C and D | 2020-09-11/2020-09-13 |
-| Season conclusion | 2020-09-14/2020-09-18 |
+| Season start | Jul 6th, 2020 |
+| Timeshift lobby: Playlist A | Jul 10th - Jul 12th, 2020 |
+| Timeshift lobby: Playlist B | Jul 17th - Jul 19th, 2020 |
+| Timeshift lobby: Playlist C | Jul 24th - Jul 26th, 2020 |
+| Timeshift lobby: Playlist D | Jul 31st - Aug 2nd, 2020 |
+| Timeshift lobby: Playlist A | Aug 7th - Aug 9th, 2020 |
+| Timeshift lobby: Playlist B | Aug 14th - Aug 16th, 2020 |
+| Timeshift lobby: Playlist C | Aug 21st - Aug 23rd, 2020 |
+| Timeshift lobby: Playlist D | Aug 28th - Aug 30th, 2020 |
+| Timeshift lobby: Playlist A and B | Sep 4th - Sep 6th, 2020 |
+| Timeshift lobby: Playlist C and D | Sep 11th - Sep 13th, 2020 |
+| Season conclusion | Sep 14th - Sep 18th, 2020 |
 
 ## Weekly multiplayer lobbies
 
-As of now, joining the weekly multiplayer lobbies requires participants to download and install [osu!lazer](https://github.com/ppy/osu/releases).
+As of now, joining the weekly multiplayer lobbies requires participants to download and install [osu!(lazer)](/wiki/Client/Release_stream/Lazer).
 
 1. Every Friday of a season, a single timeshift multiplayer lobby is opened. Everyone can participate for 3 days.
    - In the final 2 weeks of a season, a timeshift multiplayer lobby for each of the 2 playlists will be opened.
@@ -37,7 +37,7 @@ As of now, joining the weekly multiplayer lobbies requires participants to downl
 3. Within a timeshift lobby, everyone competes towards a room-specific leaderboard.
    - Room leaderboards are based on the ranked score system. Therefore, only the best score results on each beatmap within the playlist are summed up to create a weekly ranked score for each user.
    - Each beatmap of a playlist counts equally to the leaderboard score. Harder difficulties do not provide more score.
-   - Individual beatmap score is based on osu!lazer's scoring system.
+   - Individual beatmap score is based on osu!(lazer)'s scoring system.
 4. The weekly total ranked score visible in the timeshift lobby is called "weekly ranked score" onwards.
 5. Once a timeshift lobby concludes, the weekly ranked score of each participant of the room is added to the seasonal leaderboard.
 
@@ -301,7 +301,10 @@ The following leaderboards are also available as a [Google Spreadsheet](https://
 
 ### osu!
 
-*Note: You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1992) as a single beatmap pack.*
+::: alert-notice
+**Notice**
+You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1992) as a single beatmap pack.
+:::
 
 #### Playlist A
 
@@ -337,7 +340,10 @@ The following leaderboards are also available as a [Google Spreadsheet](https://
 
 ### osu!taiko
 
-*Note: You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1993) as a single beatmap pack.*
+::: alert-notice
+**Notice**
+You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1993) as a single beatmap pack.
+:::
 
 #### Playlist A
 
@@ -373,7 +379,10 @@ The following leaderboards are also available as a [Google Spreadsheet](https://
 
 ### osu!catch
 
-*Note: You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1994) as a single beatmap pack.*
+::: alert-notice
+**Notice**
+You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1994) as a single beatmap pack.
+:::
 
 #### Playlist A
 
@@ -409,7 +418,10 @@ The following leaderboards are also available as a [Google Spreadsheet](https://
 
 ### osu!mania
 
-*Note: You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1995) as a single beatmap pack.*
+::: alert-notice
+**Notice**
+You can [download all osu! playlists](https://osu.ppy.sh/beatmaps/packs/1995) as a single beatmap pack.
+:::
 
 #### Playlist A
 

@@ -8,7 +8,7 @@
 
 ![Concept art original de pippi](img/pippi-original-concept.jpg "concept art de pippi par Sarumaru.")
 
-![osu!standard comboburst du skin par défaut v1](img/pippi-original-comboburst.png "Comboburst du skin par défaut v1.")
+![osu! comboburst du skin par défaut v1](img/pippi-original-comboburst.png "Comboburst du skin par défaut v1.")
 
 ![Chibi-pippi (Image d'en-tête)](img/pippi-original-header.jpg "Chibi-pippi (Image de banière.)")
 
@@ -24,7 +24,7 @@
 
 ![pippi redesignée par Daru](img/pippi-Daru-redesigned.png "pippi redesignée par Daru (peut être vue dans la page de bienvenue)")
 
-![osu!standard comboburst du skin par défaut v2](img/pippi-Daru-comboburst.png "Comboburst du skin par défaut v2.")
+![osu! comboburst du skin par défaut v2](img/pippi-Daru-comboburst.png "Comboburst du skin par défaut v2.")
 
 ![image d'erreur 404](img/pippi-Daru-404.png "image d'erreur 404")
 
@@ -32,9 +32,9 @@
 
 Pour voir les fanarts de pippi :
 
-- [Résultats du premier concours de Fanart officiel osu! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152186520298282)
-- [concours osu! de Fanart 2! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152291754173282)
-- [concours osu! de Fanart 3! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152514671088282)
+- [Résultats du premier concours de Fanart officiel osu! (Facebook)](https://www.facebook.com/media/set/?set=a.10152186520298282)
+- [concours osu! de Fanart 2! (Facebook)](https://www.facebook.com/media/set/?set=a.10152291754173282)
+- [concours osu! de Fanart 3! (Facebook)](https://www.facebook.com/media/set/?set=a.10152514671088282)
 - [FanArt 7: Halloween!](https://osu.ppy.sh/community/contests/5)
 - [FanArt 8: Christmas](https://osu.ppy.sh/community/contests/36)
 - [Mocha dans le concours de fanart de l'été](https://osu.ppy.sh/community/contests/48)
@@ -53,7 +53,7 @@ Pour voir les fanarts de pippi :
 
 Pour voir plus de fanarts de Yuzu :
 
-- [osu! concours de Fanart 3! (Facebook)](https://www.facebook.com/pg/osugame/photos/?tab=album&album_id=10152514671088282)
+- [osu! concours de Fanart 3! (Facebook)](https://www.facebook.com/media/set/?set=a.10152514671088282)
 - [FanArt 7: Halloween!](https://osu.ppy.sh/community/contests/5)
 - [FanArt 8: Christmas](https://osu.ppy.sh/community/contests/36)
 - [Concours pour trouver le nouveau look de Yuzu](https://osu.ppy.sh/community/contests/49)
@@ -95,13 +95,13 @@ Pour voir plus de fanarts de Mocha :
 
 ### Fanarts
 
-Pour voir des fanarts avec des mascottes caméo : 
+Pour voir des fanarts avec des mascottes caméo :
 
 - [Mocha dans le concours de fanart de l'été](https://osu.ppy.sh/community/contests/48)
 
 ## Communauté
 
-Pour voir les fanarts avec des mascottes faites par la communauté : 
+Pour voir les fanarts avec des mascottes faites par la communauté :
 
 - [FanArt 6: mascotte osu!taiko](https://osu.ppy.sh/community/contests/2)
 - [FanArt 7: Halloween!](https://osu.ppy.sh/community/contests/5)

@@ -1,9 +1,14 @@
+---
+outdated_translation: true
+outdated_since: 518352ffac6612552688c3816c5a5bb589de15a2
+---
+
 # Versi (disambiguasi)
 
-**Versi** mempunyai beberapa arti:
+**Versi** dapat mempunyai beberapa arti:
 
-- Sebuah [kesulitan](/wiki/Difficulties) dalam sebuah [beatmap](/wiki/Beatmap)
-- Versi angka dari sebuah [file `.osu`](/wiki/osu!_File_Formats/Osu_(file_format))
+- Sebuah [kesulitan](/wiki/Beatmap/Difficulty) dalam sebuah [beatmap](/wiki/Beatmap)
+- Versi angka dari sebuah [berkas `.osu`](/wiki/Client/File_formats/osu_(file_format))
 - Versi angka dari sebuah [skin](/wiki/Skinning)
-- Build number atau tanggal dari sebuah klien osu!
-- Rilis pembaruan dari sebuah klien osu! (`Stable`, `Stable (Fallback)`, `Beta`, atau `Cutting Edge`)
+- Nomor build atau tanggal dari sebuah klien osu!
+- Rilis pembaruan dari sebuah klien osu! (`Stable`, `Stable (Fallback)`, `Beta`, atau `Cutting Edge (Experimental)`)

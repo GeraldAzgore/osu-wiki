@@ -1,14 +1,14 @@
 ---
-stub: true
 tags:
-  - internet relay chat
-  - IRC
-outdated: true
-outdated_since: 2a73fa15eba9ab6f0c0fbe547d71933628aedc64
+  - โครงสร้างพื้นฐาน
+outdated_translation: true
+outdated_since: bf2bda082372e609b197acae5aafd6d022ab16bf
 ---
 
-# Bancho (เซิฟเวอร์แชท)
+# Bancho (เซิฟเวอร์เกม)
 
-*อย่าจำสลับกันกับ [BanchoBot](/wiki/BanchoBot)*
+::: alert-note
+**หมายเหตุ:** สำหรับการใช้งานอื่น ๆ ดู [Bancho (คำคลุมเครือ)](/wiki/Disambiguation/Bancho)
+:::
 
-**Bancho** เป็นเซิฟเวอร์ [Internet Relay Chat](/wiki/Internet_Relay_Chat) (*IRC*) สำหรับ osu! การลงชื่อเข้าใช้ในเกมด้วยบัญชี osu! จะเชื่อมต่อเข้ากับ Bancho โดยอัตโนมัติ
+**osu!bancho** คือเซิฟเวอร์ที่ใช้จัดการสถานะผู้ใช้, แชท และ บริการผู้เล่นหลายคน

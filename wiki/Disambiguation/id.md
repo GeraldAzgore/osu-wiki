@@ -1,13 +1,10 @@
----
-outdated: true
-outdated_since: 2a73fa15eba9ab6f0c0fbe547d71933628aedc64
----
-
 # Disambiguasi
 
-Artikel **keambiguan** di [wiki osu!](/wiki/Main_Page) menyoroti istilah-istilah yang ambigu dan menjelaskan arti yang memungkinkan dari istilah tersebut. Artikel yang membahas topik dengan istilah yang ambigu terkadang disematkan catatan bertuliskan "berbeda konteks dengan" yang memiliki tautan ke topik lain.
+Dalam [osu! wiki](/wiki/Main_page), artikel **disambiguasi** merupakan artikel yang membahas seputar kata-kata dan istilah-istilah dalam permainan osu! yang memiliki lebih dari satu arti beserta penjelasan singkat tentang masing-masing pengertiannya.
 
-## Daftar artikel yang mengandung keambiguan
+Apabila suatu artikel memiliki judul yang serupa dengan artikel lainnya, artikel tersebut harus mencantumkan [keterangan disambiguasi](/wiki/Article_styling_criteria/Formatting#for-other-uses) beserta tautan menuju laman disambiguasinya.
+
+## Daftar artikel disambiguasi
 
 - [Bancho](Bancho)
 - [Easy](Easy)
@@ -17,7 +14,12 @@ Artikel **keambiguan** di [wiki osu!](/wiki/Main_Page) menyoroti istilah-istilah
 - [Mod](Mod)
 - [NC](NC)
 - [NM](NM)
-- [Offset](Offset)
+- [Note](Note)
 - [osu!](osu!)
+- [Ouendan](Ouendan)
 - [Rank](Rank)
+- [Skor](Score)
+- [Snapping](Snapping)
+- [Star](Star)
+- [Timing](Timing)
 - [Versi](Version)

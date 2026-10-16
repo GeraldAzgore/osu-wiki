@@ -1,14 +1,15 @@
 ---
-stub: true
+no_native_review: true
 tags:
   - grade
   - ranking
+  - peringkat
 ---
 
-# Rank
+# Rank (disambiguasi)
 
-Rank mempunyai tiga arti:
+**Rank** bisa memiliki beberapa arti:
 
-- Sama seperti [huruf pada grade](/wiki/Grade).
-- Posisi seorang pemain pada papan peringkat online (umumnya dikenal sebagai [ranking pemain](/wiki/Ranking)).
-- Kata kerja dari "menuju ranking", yang artinya sedang melewati [prosedur beatmap ranking](/wiki/Beatmap_ranking_procedure).
+- [Peringkat (*grade*)](/wiki/Gameplay/Grade), yang dinyatakan dalam bentuk huruf
+- [Peringkat (*ranking*)](/wiki/Ranking), atau posisi pemain pada papan peringkat online
+- Kata kerja "to rank", yang berarti "untuk melewati [prosedur ranking beatmap](/wiki/Beatmap_ranking_procedure)"

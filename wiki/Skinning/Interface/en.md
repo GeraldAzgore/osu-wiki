@@ -1,6 +1,8 @@
 # Interface skinning
 
-*See also: [Skinning Interface Tutorial](/wiki/Skinning_Interface_Tutorial) and [Interface](/wiki/Interface)*
+::: alert-note
+**See also:** [Interface](/wiki/Client/Interface)
+:::
 
 Interface skinning elements are used in multiple game modes or parts of the client's user interface.
 
@@ -26,7 +28,7 @@ Notes:
   - If it is set to `Sometimes` the seasonal backgrounds will override this element while they are in active use.
 - `.jpg` extension only.
   - If the image type is `.png` change the extension to `.jpg`.
-    - If the background is transparent, the background color will be black.
+    - If the background is transparent, the background colour will be black.
 - The player can drag and drop an image to overwrite the skin's skinned image. **This will replace the image in the skin's folder!**
 
 ---
@@ -56,7 +58,7 @@ Notes:
 Notes:
 
 - If not skinned, the current game mode's small icon will be used instead.
-- Must be enabled in the [options](/wiki/options) to see.
+- Must be enabled in the [options](/wiki/Client/Options) to see.
   - This option may forcibly be enabled during the holidays (Christmas).
 
 ## Button
@@ -118,7 +120,7 @@ Notes:
 Notes:
 
 - By default, this element will rotate and expand (on click).
-- [skin.ini](/wiki/skin.ini) commands:
+- [skin.ini](/wiki/Skinning/skin.ini) commands:
   - To disable cursor expand (on click), set `CursorExpand` to `0`.
   - To disable cursor rotate, set `CursorRotate` to `0`.
 
@@ -167,7 +169,7 @@ Notes:
 - This element is underneath the `cursor.png` element
 - If `cursormiddle.png` is present, a longer trail is used.
 - By default, this element does not rotate.
-- [skin.ini](/wiki/skin.ini) command:
+- [skin.ini](/wiki/Skinning/skin.ini) command:
   - To enable cursortrail rotate, set `CursorTrailRotate` to `1`.
 
 ---
@@ -188,7 +190,9 @@ Notes:
 
 ## Mod icons
 
-*Main page: [Game Modifiers](/wiki/Game_modifier)*
+::: alert-note
+**Main page:** [Game Modifiers](/wiki/Gameplay/Game_modifier)
+:::
 
 ---
 
@@ -246,7 +250,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
 ---
 
@@ -290,7 +294,7 @@ Notes:
 
 Notes:
 
-- For [osu!mania](/wiki/osu!mania), click the Fade In mod icon to see this icon.
+- For [osu!mania](/wiki/Game_mode/osu!mania), click the Fade In mod icon to see this icon.
 
 ---
 
@@ -304,7 +308,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -319,7 +323,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -334,7 +338,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -349,7 +353,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
 ---
 
@@ -363,7 +367,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -378,7 +382,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -393,7 +397,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -408,7 +412,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -423,7 +427,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 - Cycle through the xK mods to view.
 
 ---
@@ -438,7 +442,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
 ---
 
@@ -452,7 +456,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
 ---
 
@@ -504,7 +508,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!mania](/wiki/osu!mania)-specific.
+- This element is [osu!mania](/wiki/Game_mode/osu!mania)-specific.
 
 ---
 
@@ -518,7 +522,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!standard](/wiki/osu!standard), [osu!taiko](/wiki/osu!taiko), and [osu!catch](/wiki/osu!catch)-specific mod.
+- This element is [osu!](/wiki/Game_mode/osu!), [osu!taiko](/wiki/Game_mode/osu!taiko), and [osu!catch](/wiki/Game_mode/osu!catch)-specific mod.
 
 ---
 
@@ -532,8 +536,18 @@ Notes:
 
 Notes:
 
-- This element is [osu!standard](/wiki/osu!standard)-specific mod.
+- This element is [osu!](/wiki/Game_mode/osu!)-specific mod.
 - This mod will move the cursor for the player while the player just needs to tap or click.
+
+---
+
+`selection-mod-scorev2.png`
+
+![](img/selection-mod-scorev2.png)
+
+| Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
 
 ---
 
@@ -547,7 +561,7 @@ Notes:
 
 Notes:
 
-- This element is [osu!standard](/wiki/osu!standard)-specific mod.
+- This element is [osu!](/wiki/Game_mode/osu!)-specific mod.
 
 ---
 
@@ -570,7 +584,7 @@ Notes:
 | All | ![No][false] | ![Yes][true] | Normal | Centre | 64x64 |
 
 - This mod is available in the cuttingedge stream only.
-- This element is an [osu!standard](/wiki/osu!standard)-specific mod.
+- This element is an [osu!](/wiki/Game_mode/osu!)-specific mod.
 
 ---
 
@@ -600,7 +614,9 @@ Notes:
 
 ## Offset wizard
 
-*Main page: [Offset Wizard](/wiki/Offset_Wizard)*
+::: alert-note
+**Main page:** [Offset Wizard](/wiki/Guides/How_to_use_the_Offset_Wizard)
+:::
 
 ---
 
@@ -707,7 +723,7 @@ Notes:
 Notes:
 
 - Used when playing with 4:3 storyboards on widescreen.
-- While beatmapping, disable `Widescreen support` in [song setup](/wiki/song_setup) for this to appear.
+- While beatmapping, disable `Widescreen support` in [song setup](/wiki/Client/Beatmap_editor/Song_setup) for this to appear.
 - This element is stretched to fit the needed area.
 - The right pillar is flipped horizontally.
 
@@ -828,13 +844,15 @@ Notes:
 
 ### Hit bursts
 
-*Main page: [Skinning/FAQ § Ranking screen hierarchy](/wiki/Skinning/FAQ#ranking-screen-hierarchy)*
+::: alert-note
+**Main page:** [Skinning/FAQ § Ranking screen hierarchy](/wiki/Skinning/FAQ#ranking-screen-hit-score-hierarchy)
+:::
 
 ---
 
 `hit0.png`
 
-![](img/hit0.png)
+![](/wiki/shared/judgement/osu!/hit0.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -852,7 +870,7 @@ Notes:
 
 `hit50.png`
 
-![](img/hit50.png)
+![](/wiki/shared/judgement/osu!/hit50.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -870,7 +888,7 @@ Notes:
 
 `hit100.png`
 
-![](img/hit100.png)
+![](/wiki/shared/judgement/osu!/hit100.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -888,7 +906,7 @@ Notes:
 
 `hit100k.png`
 
-![](img/hit100k.png)
+![](/wiki/shared/judgement/osu!/hit100k.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -906,7 +924,7 @@ Notes:
 
 `hit300.png`
 
-![](img/hit300.png)
+![](/wiki/shared/judgement/osu!/hit300.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -924,7 +942,7 @@ Notes:
 
 `hit300g.png`
 
-![](img/hit300g.png)
+![](/wiki/shared/judgement/osu!/hit300g.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -942,7 +960,7 @@ Notes:
 
 `hit300k.png`
 
-![](img/hit300k.png)
+![](/wiki/shared/judgement/osu!/hit300k.png)
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -971,9 +989,9 @@ Notes:
 
 - This element is positioned at 320px height.
 - Since the image is rotated, the origin on the image itself is Top Left.
-- This element is used in [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch).
+- This element is used in [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch).
 - This element is rotated 90 degrees clockwise and stretched by 1.05x in-game.
-- Must be enabled in the [options](/wiki/options) to see.
+- Must be enabled in the [options](/wiki/Client/Options) to see.
 
 ---
 
@@ -987,14 +1005,14 @@ Notes:
 
 Notes:
 
-- This element is used in [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch).
+- This element is used in [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch).
 - Positioning varies for each key:
   - 24px away from screenborder
   - K1/L: at 350px height
   - K2/R: at 398px height
   - M1/D: at 446px height
   - M2: at 492px height
-- Toggleable in the [options](/wiki/options).
+- Toggleable in the [options](/wiki/Client/Options).
 - Shrinks briefly when the keys are pressed.
 - Tinting varies by button location and state:
   - White, if key is not pressed.
@@ -1016,7 +1034,7 @@ Notes:
 - Full image height is 768px.
 - Smaller images are shown with transparent borders while larger images are partially shown.
 - This can also be a `.jpg` file (and can have the `.jpg` extension).
-  - osu! preferences `.png` over `.jpg`.
+  - osu! prefers `.png` over `.jpg`.
 
 ---
 
@@ -1031,7 +1049,7 @@ Notes:
 - When the player has failed, the playfield will be dimmed and this file will overlay on top of it.
 - This element will stretch to fit.
 - This can also be a `.jpg` file (and can have the `.jpg` extension).
-  - osu! preferences `.png` over `.jpg`.
+  - osu! prefers `.png` over `.jpg`.
 
 ---
 
@@ -1108,7 +1126,7 @@ Notes:
 Notes:
 
 - This element has no size restrictions.
-- When used in [osu!mania](/wiki/osu!mania), this element is rotated 90 degrees anti-clockwise and is placed at the bottom right of stage.
+- When used in [osu!mania](/wiki/Game_mode/osu!mania), this element is rotated 90 degrees anti-clockwise, scaled to 0.7x size, and placed at the bottom right of stage.
 
 ---
 
@@ -1118,7 +1136,7 @@ Notes:
 
 | Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| All | ![Yes][true] | ![Yes][true] | (Varies) | Top Left | - |
+| All | ![Yes][true] | ![Yes][true] | (Varies) | Top Left | max height: 120px |
 
 Notes:
 
@@ -1130,8 +1148,7 @@ Notes:
 - Positioning varies:
   - If a marker is used, positioned at (12,12).
   - Otherwise, positioned at (5,16).
-- This element has no size restrictions.
-- When used in [osu!mania](/wiki/osu!mania), this element is rotated 90 degrees anti-clockwise and is placed at the bottom right of stage.
+- When used in [osu!mania](/wiki/Game_mode/osu!mania), this element is rotated 90 degrees anti-clockwise, scaled to 0.7x size, and placed at the bottom right of stage.
 
 ---
 
@@ -1147,8 +1164,9 @@ Notes:
 
 - `scorebar-marker.png` has higher priority.
 - This element represents the "passing" zone.
-- This element is not used in [osu!mania](/wiki/osu!mania).
+- This element is not used in [osu!mania](/wiki/Game_mode/osu!mania).
 - Y-position at 16; x-position is placed at the end of the cropped `scorebar-colour.png`
+- A `scorebar-colour.png` is required for this element to appear.
 
 ---
 
@@ -1164,8 +1182,9 @@ Notes:
 
 - `scorebar-marker.png` has higher priority.
 - this element represents the "warning" zone
-- This element is not used in [osu!mania](/wiki/osu!mania)
+- This element is not used in [osu!mania](/wiki/Game_mode/osu!mania)
 - Y-position at 16; x-position is placed at the end of the cropped `scorebar-colour.png`
+- A `scorebar-colour.png` is required for this element to appear.
 
 ---
 
@@ -1181,8 +1200,9 @@ Notes:
 
 - `scorebar-marker.png` has higher priority.
 - This element represents the "critical" zone.
-- This element is not used in [osu!mania](/wiki/osu!mania)
+- This element is not used in [osu!mania](/wiki/Game_mode/osu!mania)
 - Y-position at 16; x-position is placed at the end of the cropped `scorebar-colour.png`
+- A `scorebar-colour.png` is required for this element to appear.
 
 ---
 
@@ -1198,7 +1218,7 @@ Notes:
 
 - If skinned, this element overrides the `scorebar-ki.png`, `scorebar-kidanger.png`, and `scorebar-kidanger2.png` elements.
 - The marker fades out if the player reaches the critical zone.
-- This element is not used in [osu!mania](/wiki/osu!mania).
+- This element is not used in [osu!mania](/wiki/Game_mode/osu!mania).
 - Y-position at 16; x-position is placed at the end of the cropped `scorebar-colour.png`.
 
 ### Score numbers
@@ -1216,7 +1236,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1235,7 +1255,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1254,7 +1274,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1273,7 +1293,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1292,7 +1312,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1311,7 +1331,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1330,7 +1350,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1349,7 +1369,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1368,7 +1388,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1387,7 +1407,7 @@ Notes:
 - By default, this is also used for the combo numbers.
 - Blend mode varies:
   - If used for combo counter:
-    - In [osu!standard](/wiki/osu!standard) and [osu!catch](/wiki/osu!catch), additive for the expanding after images.
+    - In [osu!](/wiki/Game_mode/osu!) and [osu!catch](/wiki/Game_mode/osu!catch), additive for the expanding after images.
     - Additionally in osu!catch, the after images are tinted using the combo colour of the fruit.
     - In osu!mania, multiplicative.
 
@@ -1449,10 +1469,25 @@ Notes:
 
 Notes:
 
-- This element is for the combo, only used in [osu!standard](/wiki/osu!standard).
+- This element is for the combo, only used in [osu!](/wiki/Game_mode/osu!).
 - Blend mode varies:
   - If used for combo counter:
     - Additive for the expanding after images.
+
+---
+
+`score-pp.png`
+
+![](img/score-pp.png)
+
+| Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] | ![Yes][true] | Normal | (Varies) | - |
+
+Notes:
+
+- [Lazer](/wiki/Client/Release_stream/Lazer) only.
+- This element is for the [performance points](/wiki/Performance_points).
 
 ## Ranking grades
 
@@ -1870,7 +1905,7 @@ Notes:
 
 Notes:
 
-- This element is used in [multi](/wiki/multi) only.
+- This element is used in [multi](/wiki/Client/Interface/Multiplayer) only.
 
 ## Score entry
 
@@ -1887,7 +1922,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -1909,7 +1944,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -1931,7 +1966,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -1953,7 +1988,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -1975,7 +2010,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -1997,7 +2032,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -2019,7 +2054,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -2041,7 +2076,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -2063,7 +2098,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -2085,7 +2120,7 @@ Notes:
 - Tinting depends on use:
   - Score: white
   - Combo: cyan
-  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/skin.ini) or black, if not defined
+  - Input overlay: use `InputOverlayText` value from [skin.ini](/wiki/Skinning/skin.ini) or black, if not defined
 - Origin varies on use:
   - Score: Top Left
   - Combo: Top Right
@@ -2138,7 +2173,7 @@ Notes:
 Notes:
 
 - This element is used for the in-game leaderboards.
-- This element is used in [Multi](/wiki/Multi) games when the win condition is set to Accuracy.
+- This element is used in [Multi](/wiki/Client/Interface/Multiplayer) games when the win condition is set to Accuracy.
 - Tinted white.
 
 ---
@@ -2167,7 +2202,7 @@ Notes:
 
 - Animation name: `menu-back-{n}.png`.
 - The native back button is not skinnable.
-  - If this element is skinned, it will override the new one everywhere, except for the [options](/wiki/options).
+  - If this element is skinned, it will override the new one everywhere, except for the [options](/wiki/Client/Options).
 
 ---
 
@@ -2181,7 +2216,7 @@ Notes:
 
 Notes:
 
-- Skin versions 2.2+ can support thumbnails (must be enabled in the [options](/wiki/options)) for song selection
+- Skin versions 2.2+ can support thumbnails (must be enabled in the [options](/wiki/Client/Options)) for song selection
   - Thumbnails get positioned 9px away from the left image border
   - Thumbnail size is 115x85
 - This element is used in various places:
@@ -2190,6 +2225,20 @@ Notes:
   - scoreboards on the left while playing
   - button that shows the selected beatmap while waiting in a room in multiplayer
 - Tinting varies by button state.
+
+---
+
+`rank-forum.png`
+
+![](img/rank-forum.png)
+
+| Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] | ![No][false] | Normal | Centre | 25x25 |
+
+Notes:
+
+- Any pixels outside of the 25x25 square will be cut off.
 
 ---
 
@@ -2331,6 +2380,37 @@ Notes:
 
 ---
 
+`songselect-bottom.png`
+
+![](img/songselect-bottom.png)
+
+| Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] | ![No][false] | Normal | Bottom Left | - |
+
+Notes:
+
+- Stretches to 100% of screen width.
+- Making this element too tall will prevent mouse clicks from interacting with elements below it.
+
+---
+
+`songselect-top.png`
+
+![](img/songselect-top.png)
+
+| Versions | Animatable | Beatmap Skinnable | Blend Mode | Origin | Suggested SD Size |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| All | ![No][false] | ![No][false] | Normal | Top Left | - |
+
+Notes:
+
+- Rightmost few pixels repeat from a certain point
+  - Repetitions are layered below the initial asset
+  - Their starting point varies depending on user's in-game resolution
+
+---
+
 `star.png`
 
 ![](img/star.png)
@@ -2373,7 +2453,7 @@ Notes:
 Notes:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
-- Select [osu!standard](/wiki/osu!standard) for this to see.
+- Select [osu!](/wiki/Game_mode/osu!) for this to be visible.
 
 ---
 
@@ -2388,7 +2468,7 @@ Notes:
 Notes:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
-- Select [osu!taiko](/wiki/osu!taiko) for this to see.
+- Select [osu!taiko](/wiki/Game_mode/osu!taiko) for this to be visible.
 
 ---
 
@@ -2403,7 +2483,7 @@ Notes:
 Notes:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
-- Select [osu!catch](/wiki/osu!catch) for this to see.
+- Select [osu!catch](/wiki/Game_mode/osu!catch) for this to be visible.
 
 ---
 
@@ -2418,7 +2498,7 @@ Notes:
 Notes:
 
 - This element flashes in the centre of the song select screen in respect of the song's BPM.
-- Select [osu!mania](/wiki/osu!mania) for this to see.
+- Select [osu!mania](/wiki/Game_mode/osu!mania) for this to be visible.
 
 ---
 
@@ -2493,7 +2573,7 @@ Notes:
 Notes:
 
 - This element is on top of the `selection-mode.png` element.
-- Select [osu!standard](/wiki/osu!standard) for this to see.
+- Select [osu!](/wiki/Game_mode/osu!) for this to be visible.
 - If the `menu-snow.png` element is not skinned, this element will be used if it is selected.
 
 ---
@@ -2509,7 +2589,7 @@ Notes:
 Notes:
 
 - This element is on top of the `selection-mode.png` element.
-- Select [osu!taiko](/wiki/osu!taiko) for this to see.
+- Select [osu!taiko](/wiki/Game_mode/osu!taiko) for this to be visible.
 - If the `menu-snow.png` element is not skinned, this element will be used if it is selected.
 
 ---
@@ -2525,7 +2605,7 @@ Notes:
 Notes:
 
 - This element is on top of the `selection-mode.png` element.
-- Select [osu!catch](/wiki/osu!catch) for this to see.
+- Select [osu!catch](/wiki/Game_mode/osu!catch) for this to be visible.
 - If the `menu-snow.png` element is not skinned, this element will be used if it is selected.
 
 ---
@@ -2541,7 +2621,7 @@ Notes:
 Notes:
 
 - This element is on top of the `selection-mode.png` element.
-- Select [osu!mania](/wiki/osu!mania) for this to see.
+- Select [osu!mania](/wiki/Game_mode/osu!mania) for this to be visible.
 - If the `menu-snow.png` element is not skinned, this element will be used if it is selected.
 
 [true]: /wiki/shared/true.png

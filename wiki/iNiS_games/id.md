@@ -1,4 +1,5 @@
 ---
+no_native_review: true
 stub: true
 tags:
   - DS
@@ -12,24 +13,25 @@ tags:
   - Osu! Tatakae! Ouendan!
   - Osu Tatakae Ouendan
   - Ouendan
-outdated: true
-outdated_since: 2a73fa15eba9ab6f0c0fbe547d71933628aedc64
+  - permainan asli
 ---
 
-# Gim dari iNiS
+# Permainan iNiS
 
-[Jenis permainan](/wiki/Game_mode) [osu!standard](/wiki/Game_mode/osu!) dan bahkan osu! sendiri berdasar pada gim ritme yang dikembangkan oleh **[iNiS](https://en.wikipedia.org/wiki/INiS "iNiS di Wikipedia")** untuk [Nintendo DS](https://id.wikipedia.org/wiki/Nintendo_DS "Nintendo DS di Wikipedia") pada awal tahun 2000-an. ![][flag_AU] [peppy](https://osu.ppy.sh/users/2) mengembangkan osu! untuk menjadi simulator dan editor level untuk gim - gim yang dikembangkan oleh iNiS, dan perlu diketahui anggota komunitas osu! paling awal saat itu pada umumnya juga merupakan penggemar gim tersebut. [Beatmap](/wiki/Beatmap) yang dibuat pada masa itu sangat dipengaruhi oleh desain level yang dibuat oleh iNiS.
+*Lihat juga: [osu! (disambiguasi)](/wiki/Disambiguation/osu!)*
 
-Gim yang dimaksud adalah:
+Mode [osu!](/wiki/Game_mode/osu!) dan permainan osu! itu sendiri pada awalnya dirancang berdasarkan serial permainan ritme yang dikembangkan oleh **[iNiS](https://en.wikipedia.org/wiki/INiS_Corporation)** untuk [Nintendo DS](https://en.wikipedia.org/wiki/Nintendo_DS) di awal tahun 2000-an. Pada mulanya, ::{ flag=AU }:: [peppy](https://osu.ppy.sh/users/2) membuat osu! untuk menjadi simulator dan editor level permainan iNiS, dan para anggota komunitas osu! di kala itu juga pada umumnya merupakan penggemar dari permainan ini. [Beatmap](/wiki/Beatmap) lawas yang ada di osu! sering kalinya sangat dipengaruhi oleh rancangan level iNiS.
 
-- [Osu! Tatakae! Ouendan!](https://en.wikipedia.org/wiki/Osu!_Tatakae!_Ouendan "Osu! Tatakae! Ouendan di Wikipedia") (*Ouendan*)
+Permainan iNiS ini meliputi:
+
+- [Osu! Tatakae! Ouendan!](https://en.wikipedia.org/wiki/Osu!_Tatakae!_Ouendan) (*Ouendan*)
 - [Elite Beat Agents](#elite-beat-agents) (*EBA*)
-- [Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ouendan! 2](https://en.wikipedia.org/wiki/Moero!_Nekketsu_Rhythm_Damashii_Osu!_Tatakae!_Ouendan_2 "Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ouendan 2 di Wikipedia") (*Ouendan 2*)
+- [Moero! Nekketsu Rhythm Damashii Osu! Tatakae! Ouendan! 2](https://en.wikipedia.org/wiki/Moero!_Nekketsu_Rhythm_Damashii_Osu!_Tatakae!_Ouendan_2) (*Ouendan 2*)
 
 ## Elite Beat Agents
 
-![](img/Elite-Beat-Agents.jpg "Desain kemasan untuk Elite Beat Agents")
+![](img/Elite-Beat-Agents.jpg "Gambar sampul Elite Beat Agents")
 
-***[Elite Beat Agents](https://en.wikipedia.org/wiki/Elite_Beat_Agents "Elite Beat Agents di Wikipedia")*** adalah sekuel versi barat untuk **Osu! Tatakae! Ouendan!** yang dirilis pada tahun 2006. Beberapa karakternya hadir sebagai maskot di gim osu! berupa desain grafis dan juga skin resmi yang dipakai di osu!.
+***[Elite Beat Agents](https://en.wikipedia.org/wiki/Elite_Beat_Agents)*** merupakan sekuel *Osu! Tatakae! Ouendan!* versi Barat yang dirilis pada tahun 2006. Sebagian karakter dari permainan ini sempat digunakan sebagai maskot osu! pada berbagai gambar ilustrasi dan skin resmi.
 
-[flag_AU]: /wiki/shared/flag/AU.gif "Australia"
+<!--TODO: Insert lots of links and sections for Ouendan games, talk about which game mechanics are old and new -->

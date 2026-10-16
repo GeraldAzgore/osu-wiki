@@ -1,10 +1,15 @@
+---
+outdated_translation: true
+outdated_since: f7365d5b874cd7bd24d42b84611e43535dd7de86
+---
+
 # Özel vuruş sesleri kullanımı
 
 Bu rehberde özel [vuruş seslerini](/wiki/Beatmapping/Hitsound), [beatmaplerinizde](/wiki/Beatmap) nasıl kullanacağınızı öğreneceksiniz.
 
 ## Özel vuruş seslerini elde etmek
 
-Beatmapinizde özel vuruş sesleri kullanmak için, öncelikle birkaçına ihtiyacınız olacak! [Özel vuruş sesi kütüphanesi](/wiki/Guides/Custom_Hitsound_Library) ses örneklerini elde etmek için harika bir kaynak; ziller, davullar, çanlar, ıslıklar, ve hatta daha fazlasu burada mevcut. Alternatif olarak, eğer aradığınızı bulamıyorsanız, kendi örneklerinizi yapabilirsiniz!
+Beatmapinizde özel vuruş sesleri kullanmak için, öncelikle birkaçına ihtiyacınız olacak! [Özel vuruş sesi kütüphanesi](/wiki/Guides/Custom_hitsound_library) ses örneklerini elde etmek için harika bir kaynak; ziller, davullar, çanlar, ıslıklar, ve hatta daha fazlasu burada mevcut. Alternatif olarak, eğer aradığınızı bulamıyorsanız, kendi örneklerinizi yapabilirsiniz!
 
 Vuruş sesleri, yeniden oynatırken gecikme olmadığı ve düzgünce arka arkaya çaldığı için, `.wav` veya `.ogg` formatında olmalıdır. `.mp3` formatındaki ses dosyaları hafif gecikmelere sahip olabilir ve vuruş seslerini ayarlamaya çalıştığınız şarkıyla tam olarak uyuşmayabilir. Ancak, yine de alkış veya ortam sesleri gibi `.wav` veya `.ogg` dosyalarının boyutlarının fazlasıyla büyük olacağı birtakım ses efektleri için kullanılabilir.
 
@@ -19,7 +24,7 @@ Arzu ettiğiniz ses dosyalarınıza sahip olduğunuzda, içerisinde kullanmak is
 5. `Müzik Dosyasını Aç` sekmesine tıklayın.
 6. Dosyalarınızı buraya yapıştırın.
 
-Eğer osu!'yu MacOS üzerinde çalıştırıyorsanız, nispeten daha farklı bir yaklaşım izlemeniz gerekebilir:
+Eğer osu!'yu macOS üzerinde çalıştırıyorsanız, nispeten daha farklı bir yaklaşım izlemeniz gerekebilir:
 
 1. osu! uygulama ikonuna sağ-tıklayın ve `Paket İçeriklerini Göster` seçeneğini seçin.
 2. Beatmapinizin klasörünü `drive_c -> osu! -> Songs` üzerinden konumlandırın (`Son Düzenlenen`'e göre sıralamanız yardımcı olabilir).
@@ -39,7 +44,7 @@ buradaki `<örnekseti>` yerine "normal", "soft" veya "drum", ve `<ses>` yerine i
 
 ![](img/beatmap-folder-resources.png "Özel vuruş sesleri içeren tipik bir beatmap klasörü")
 
-Yukarıdaki resimde, ilk listelenen ses `soft-hitclap.wav` olarak isimlendirilmiştir, Soft örnek setini ve "hitclap" eklemesi bulunan bir nota başarılı bir şekilde vurulduğunda varsayılan vuruş sesinin yerine geçen başka bir ses çıkarır. Bunun yalnızca *seçilen örnek sette* oynatılacağını unutmayın. Eğer beatmapiniz diğer örnek setlerini de kullanıyorsa, örneğin Normal örnek setini kullanırken bir `normal-hitclap.wav` eklemek gibi, ek vuruş sesi dosyaları gerektirecektir (her ne kadar aynı ses örneğini kullanmak isteseniz de). 
+Yukarıdaki resimde, ilk listelenen ses `soft-hitclap.wav` olarak isimlendirilmiştir, Soft örnek setini ve "hitclap" eklemesi bulunan bir nota başarılı bir şekilde vurulduğunda varsayılan vuruş sesinin yerine geçen başka bir ses çıkarır. Bunun yalnızca *seçilen örnek sette* oynatılacağını unutmayın. Eğer beatmapiniz diğer örnek setlerini de kullanıyorsa, örneğin Normal örnek setini kullanırken bir `normal-hitclap.wav` eklemek gibi, ek vuruş sesi dosyaları gerektirecektir (her ne kadar aynı ses örneğini kullanmak isteseniz de).
 
 ## Özel vuruş seslerini kullanmak
 

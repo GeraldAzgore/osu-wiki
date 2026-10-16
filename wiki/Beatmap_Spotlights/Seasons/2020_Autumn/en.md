@@ -11,27 +11,27 @@ tags:
 
 | Event | Time |
 | :-- | :-- |
-| Season start | 2020-10-09 |
-| Timeshift lobby: Playlist A | 2020-10-09/2020-10-16 |
-| Timeshift lobby: Playlist B | 2020-10-16/2020-10-23 |
-| Timeshift lobby: Playlist C | 2020-10-23/2020-10-30 |
-| Timeshift lobby: Playlist D | 2020-10-30/2020-11-06 |
-| Intermission | 2020-11-06/2020-11-13 |
-| Timeshift lobby: Playlist A | 2020-11-13/2020-11-20 |
-| Intermission | 2020-11-20/2020-11-27 |
-| Timeshift lobby: Playlist B | 2020-11-27/2020-12-04 |
-| Timeshift lobby: Playlist C | 2020-12-04/2020-12-11 |
-| Timeshift lobby: Playlist D | 2020-12-11/2020-12-18 |
-| Season conclusion | 2020-12-18 |
+| Season start | Oct 9th, 2020 |
+| Timeshift lobby: Playlist A | Oct 9th - Oct 16th, 2020 |
+| Timeshift lobby: Playlist B | Oct 16th - Oct 23rd, 2020 |
+| Timeshift lobby: Playlist C | Oct 23rd - Oct 30th, 2020 |
+| Timeshift lobby: Playlist D | Oct 30th - Nov 6th, 2020 |
+| Intermission | Nov 6th - Nov 13th, 2020 |
+| Timeshift lobby: Playlist A | Nov 13th - Nov 20th, 2020 |
+| Intermission | Nov 20th - Nov 27th, 2020 |
+| Timeshift lobby: Playlist B | Nov 27th - Dec 4th, 2020 |
+| Timeshift lobby: Playlist C | Dec 4th - Dec 11th, 2020 |
+| Timeshift lobby: Playlist D | Dec 11th - Dec 29th, 2020 |
+| Season conclusion | Dec 18th, 2020 |
 
 ## Weekly multiplayer lobbies
 
-As of now, joining the weekly multiplayer lobbies requires participants to download and install [osu!lazer](https://github.com/ppy/osu/releases).
+As of now, joining the weekly multiplayer lobbies requires participants to download and install [osu!(lazer)](/wiki/Client/Release_stream/Lazer).
 
 1. Lobbies will be open for the whole week.
-2. Playlist will now feature mods as well
-   - The maps with mods are duplicates of the original and their purpuse is to give challenge to experienced players.
-   - osu!taiko is unable to feature mods due to lazer limitations in this season
+2. Playlist will now feature mods as well.
+   - The maps with mods are duplicates of the original and their purpose is to give challenge to experienced players.
+   - osu!taiko is unable to feature mods due to lazer limitations in this season.
 
 ## Playlists
 

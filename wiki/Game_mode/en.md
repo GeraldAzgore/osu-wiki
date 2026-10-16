@@ -1,46 +1,74 @@
 # Game mode
 
-osu! has four **game modes**: [osu!](#-osu!), [osu!taiko](#-osu!taiko), [osu!catch](#-osu!catch), and [osu!mania](#-osu!mania). Each has unique gameplay mechanics and was originally inspired by other rhythm games.
+osu! has four built-in **game modes** with different mechanics, originally inspired by other rhythm games:
 
-Each game mode has its own icon/symbol: ![][o!s] ![][o!t] ![][o!c] ![][o!m] (osu!, osu!taiko, osu!catch, and osu!mania respectively).
+- ![][osu!] [osu!](#osu!)
+- ![][osu!taiko] [osu!taiko](#osu!taiko)
+- ![][osu!catch] [osu!catch](#osu!catch)
+- ![][osu!mania] [osu!mania](#osu!mania)
 
-The default game mode is osu!. However, upon start-up, osu! will open with the game mode that was last selected. To switch between game modes, the player can either click on the `Mode` button at the bottom of the Song Selection screen, or by pressing `Ctrl`+`1`, `Ctrl`+`2`, `Ctrl`+`3`, or `Ctrl`+`4` to switch between osu!, osu!taiko, osu!catch, and osu!mania respectively.
+To switch between modes, click the `Mode` button at the bottom of the song selection screen for osu!(stable), use the buttons on the top of the screen for osu!(lazer), or use these key combinations:
 
-![Mode selection interface](/wiki/shared/Interface_mode.png "Mode selection interface")
+- `Ctrl` + `1` for osu!
+- `Ctrl` + `2` for osu!taiko
+- `Ctrl` + `3` for osu!catch
+- `Ctrl` + `4` for osu!mania
 
-## ![][o!s] osu!
+![Mode selection interface](/wiki/shared/Interface_mode.png "Mode selection interface in osu!(stable)")
 
-*Main page: [osu!](osu!)*
+![Mode selection interface](/wiki/shared/Interface_mode_lazer.png "Mode selection interface in osu!(lazer)")
 
-*osu!* (commonly referred to as *osu!standard*) is the default game mode in the osu! client, and is based on the original [iNiS'](https://en.wikipedia.org/wiki/INiS "Wikipedia") rhythm video game *[Osu! Tatakae! Ouendan](https://en.wikipedia.org/wiki/Osu!_Tatakae!_Ouendan "Wikipedia")*. In osu!, the player is expected to tap hit circles, hold sliders, and spin spinners to the beat of songs.
+## ![][osu!] osu!
+
+::: alert-note
+**Main page:** [osu!](osu!)
+:::
+
+*osu!* is the default mode, where players are expected to tap circles, hold sliders, and spin spinners to the beat of the music. It is based on the original [iNiS](https://en.wikipedia.org/wiki/INiS)' rhythm game *[Osu! Tatakae! Ouendan](https://en.wikipedia.org/wiki/Osu!_Tatakae!_Ouendan)*. osu! has its own mascot called [pippi](/wiki/Mascots#pippi), a pink/black-haired girl.
 
 ![Gameplay of osu!](/wiki/shared/osu-gameplay.jpg "osu! gameplay")
 
-## ![][o!t] osu!taiko
+## ![][osu!taiko] osu!taiko
 
-*Main page: [osu!taiko](osu!taiko)*
+::: alert-note
+**Main page:** [osu!taiko](osu!taiko)
+:::
 
-*osu!taiko* is based on the *[Taiko no Tatsujin](https://en.wikipedia.org/wiki/Taiko_no_Tatsujin "Wikipedia")* game series produced by [Bandai Namco Entertainment](https://en.wikipedia.org/wiki/Bandai_Namco_Entertainment "Wikipedia"). Made to mimic the feel of playing a real drum, the player makes use of a keyboard or drum kit to hit differently-colored circles on a single conveyor.
+*osu!taiko* simulates the process of playing a real drum, where players make use of a keyboard or drum kit to hit differently-coloured circles on a single conveyor. It is based on the *[Taiko no Tatsujin](https://en.wikipedia.org/wiki/Taiko_no_Tatsujin)* game series produced by [Bandai Namco Entertainment](https://en.wikipedia.org/wiki/Bandai_Namco_Entertainment). osu!taiko's mascot is [Mocha](/wiki/Mascots#mocha), a green-haired girl in a kimono holding drumsticks.
 
 ![Gameplay of osu!taiko](/wiki/shared/taiko-gameplay.jpg "osu!taiko gameplay")
 
-## ![][o!c] osu!catch
+## ![][osu!catch] osu!catch
 
-*Main page: [osu!catch](osu!catch)*
+::: alert-note
+**Main page:** [osu!catch](osu!catch)
+:::
 
-*osu!catch* is loosely based on a minigame inside of a [Beatmania](https://en.wikipedia.org/wiki/Beatmania "Wikipedia") simulator, which itself is believed to be based on the *EZ2CATCH* mode from the [EZ2DJ](https://en.wikipedia.org/wiki/EZ2DJ "Wikipedia") series. The game mode consists of falling fruit of differing varieties and a "catcher" holding a plate to catch the fruit.
+*osu!catch* is a game mode where players control a catcher character to collect fruits falling to the beat from the top of the screen. It is loosely based on the "Catch It!!" minigame in the early builds of [rdm/rhythm-it](https://nvyu.net/rdm/jp/)[^rdm], a [Beatmania](https://en.wikipedia.org/wiki/Beatmania) simulator for PC, which by itself is derived after the *EZ2CATCH* mode from the [EZ2DJ](https://en.wikipedia.org/wiki/EZ2DJ) arcade system. osu!catch's mascot is [Yuzu](/wiki/Mascots#yuzu), a blue-haired boy.
 
 ![Gameplay of osu!catch](/wiki/shared/catch-gameplay.jpg "osu!catch gameplay")
 
-## ![][o!m] osu!mania
+## ![][osu!mania] osu!mania
 
-*Main page: [osu!mania](osu!mania)*
+::: alert-note
+**Main page:** [osu!mania](osu!mania)
+:::
 
-*osu!mania* is based on a variety of conveyor-type rhythm games (namely [Dance Dance Revolution](https://en.wikipedia.org/wiki/Dance_Dance_Revolution "Wikipedia") and Beatmania). The game mode was chiefly introduced and implemented by [woc2006](https://osu.ppy.sh/users/1105845), and is made to mimic the feel of a real piano through the use of keyboard keys.
+*osu!mania* is a vertical scrolling rhythm game (VSRG) mode designed as a piano simulator. It was chiefly [introduced and implemented](https://osu.ppy.sh/community/forums/topics/100751) by [woc2006](https://osu.ppy.sh/users/1105845), and is based on a variety of conveyor-type rhythm games (namely [Dance Dance Revolution](https://en.wikipedia.org/wiki/Dance_Dance_Revolution) and [Beatmania](https://en.wikipedia.org/wiki/Beatmania)). osu!mania's mascots are the twins [Mani and Mari](/wiki/Mascots#mani-&-mari), both with purple and light purple hair.
 
 ![Gameplay of osu!mania](/wiki/shared/mania-gameplay.jpg "osu!mania gameplay")
 
-[o!s]: /wiki/shared/mode/osu.png "osu!"
-[o!t]: /wiki/shared/mode/taiko.png "osu!taiko"
-[o!c]: /wiki/shared/mode/catch.png "osu!catch"
-[o!m]: /wiki/shared/mode/mania.png "osu!mania"
+## Custom game modes
+
+In osu!(lazer), it's possible to manually install custom game modes (also called custom rulesets) via `.dll` files. They introduce a new way to play the game using the beatmap library that osu! offers. Custom game modes, like the main modes, are often inspired by other rhythm games.
+
+The full list of playable custom game modes can be found in [this GitHub discussion](https://github.com/ppy/osu/discussions/13096).
+
+## References
+
+[^rdm]: [YouTube video by peppy (2008-10-15) "rdm catch it! mode"](https://www.youtube.com/watch?v=ZEgzSYiWBtM).
+
+[osu!]: /wiki/shared/mode/osu.png "osu!"
+[osu!taiko]: /wiki/shared/mode/taiko.png "osu!taiko"
+[osu!catch]: /wiki/shared/mode/catch.png "osu!catch"
+[osu!mania]: /wiki/shared/mode/mania.png "osu!mania"
